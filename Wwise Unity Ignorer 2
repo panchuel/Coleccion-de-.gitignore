@@ -1,0 +1,30 @@
+# --------------------------
+# Wwise - Ignorar en Unity
+# --------------------------
+WwiseProject/.*  
+WwiseProject/*.prof
+WwiseProject/*.wsettings
+WwiseProject/*.validationcache
+WwiseProject/GeneratedSoundBanks/
+
+WwiseProject/.cache/
+WwiseProject/.vs/
+WwiseProject/.idea/
+WwiseProject/*.log
+
+WwiseProject/**/*.akd
+WwiseProject/**/*.akt
+WwiseProject/**/*.akp
+
+# -------------------------------------
+# Unity - Ignorar bancos generados de Wwise
+# -------------------------------------
+Assets/Wwise/Deployment/**/*.bnk
+Assets/Wwise/Deployment/**/*.bnk.meta
+Assets/Wwise/Deployment/**/*.wem
+Assets/Wwise/Deployment/**/*.wem.meta
+
+Assets/Wwise/Editor/ProjectData/*.asset.meta
+Assets/Wwise/Editor/ProjectData/*.asset.*
+
+!Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
